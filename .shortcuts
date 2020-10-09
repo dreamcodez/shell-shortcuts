@@ -1,11 +1,5 @@
-PATH="$HOME/bin:$HOME/.cargo/bin:$PATH"
-
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
 alias gs='git status'
 alias gcp='git checkout -p'
 alias gap='git add -p'
-alias worma='cd ~/dev/wormhole/services/api'
-alias wormb='cd ~/dev/wormhole/services/builder'
-
-export EDITOR=vim
